@@ -1,0 +1,171 @@
+/* ************************************************************************Main*************************************************************************************** */
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    height: 1125px;
+    background-image: url(Home/bg-landing-ono.7891c75a.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    display:flex;
+    align-items:center;
+    z-index: 2;
+}
+.navbar img{
+    width: 17rem;
+    margin-left: 8rem;
+}
+.nav-items{
+    display: flex;
+    margin-left: 14rem;
+    width: 65rem;
+    justify-content: space-around;
+}
+.navbar a{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: #59EDEA;
+}
+.register{
+    color: white;
+    margin-left: 12rem;
+    font-size: x-large;
+    text-decoration: none;
+}
+/* ***********************************************************************************About Ono*********************************************************************** */
+.about-ono{
+    background-color: #040714;
+    color: #fff;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.about-ono img{
+    width: 67rem;
+}
+.about-ono-intro-div{
+    margin-top: 4rem;
+}
+.about-ono-intro-div p{
+    color: white;
+    width: 67rem;
+    font-size: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+/* ********************************************************************************Artists**************************************************************************** */
+.artists{
+    position: relative;
+}
+.darshanrawal{
+    width: 100%;
+}
+.darshanrawal-info-div{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 26rem;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.darshanrawal-main{
+    color: white;
+    font-family: Stolzl Display,sans-serif;
+    margin-left: 13rem;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 4rem;
+}
+.darshan-date{
+    font-size: 3rem;
+    color: #59EDEA;
+}
+.darshanrawal-info{
+    color: white;
+    width: 58rem;
+    height: 18rem;
+    margin-left: 24rem;
+    font-family: Jost,sans-serif;
+    font-size: 27px;
+    line-height: 3rem;
+    margin-top: 6rem;
+}
+/* *******************************************************************************Events****************************************************************************** */
+.events{
+    background-color: #01051B;
+    overflow: hidden;
+    height: 75rem;
+}
+.onoevents{
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.events-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.events-photo{
+    width: 32rem;
+    height: 40rem;
+}
+.events-photo-cap{
+    color: white;
+    margin-top: 2rem;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    margin-bottom: 7rem;
+}
+.events-photo-cap-date{
+    color: #A5C1D1;
+}
+.events button{
+    margin-left: 62rem;    
+    background-color: #384049;
+    color: white;
+    width: 15rem;
+    height: 4rem;
+    font-size: 21px;
+}
+/* **************************************************************************Sponsors********************************************************************************* */
+.sponsors{
+    background-color: rgb(4,6,19);
+}
+.sponsors-img{
+    width: 100%;
+}
+.sponsors-logo{
+    display: flex;
+    flex-direction: column;
+}
+.sponsors-logo-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.sponsors-logo-div-img{
+    width: 20rem;
+}
+/* ************************************************************************FAQs*************************************************************************************** */
+.introImage{
+    width: 100%;
+}
