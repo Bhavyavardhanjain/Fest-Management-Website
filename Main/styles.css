@@ -24,6 +24,9 @@
     width: 17rem;
     margin-left: 8rem;
 }
+.navbar img:hover{
+    cursor: pointer;
+}
 .nav-items{
     display: flex;
     margin-left: 14rem;
@@ -35,7 +38,7 @@
     font-size: x-large;
     text-decoration: none;
 }
-.nav-item:hover{
+.nav-items a:hover{
     color: #59EDEA;
 }
 .register{
