@@ -4,7 +4,7 @@
     padding: 0;
 }
 #home{
-    height: 1125px;
+    height: 47rem;
     background-image: url(Home/bg-landing-ono.7891c75a.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 60px;
     top: 0;
     bottom: 0;
     display:flex;
@@ -21,7 +21,7 @@
     z-index: 2;
 }
 .navbar img{
-    width: 17rem;
+    width: 12rem;
     margin-left: 8rem;
 }
 .navbar img:hover{
@@ -29,13 +29,13 @@
 }
 .nav-items{
     display: flex;
-    margin-left: 14rem;
-    width: 65rem;
+    margin-left: 9rem;
+    width: 42rem;
     justify-content: space-around;
 }
 .navbar a{
     color: white;
-    font-size: x-large;
+    font-size: 15px;
     text-decoration: none;
 }
 .nav-items a:hover{
@@ -43,8 +43,8 @@
 }
 .register{
     color: white;
-    margin-left: 12rem;
-    font-size: x-large;
+    margin-left: 10rem;
+    font-size: 15px;
     text-decoration: none;
 }
 /* ***********************************************************************************About Ono*********************************************************************** */
@@ -58,15 +58,16 @@
     z-index: 1;
 }
 .about-ono img{
-    width: 67rem;
+    width: 32rem;
+    margin-top: 4rem;
 }
 .about-ono-intro-div{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .about-ono-intro-div p{
     color: white;
-    width: 67rem;
-    font-size: 2rem;
+    width: 44rem;
+    font-size: 21px;
     margin: 2rem;
     text-align: center;
 }
@@ -80,7 +81,7 @@
 .darshanrawal-info-div{
     background-color: rgba(0,0,0,0.4);
     width: 100%;
-    height: 26rem;
+    height: 17rem;
     position: absolute;
     bottom: 0px;
     display: flex;
@@ -89,62 +90,63 @@
 .darshanrawal-main{
     color: white;
     font-family: Stolzl Display,sans-serif;
-    margin-left: 13rem;
+    margin-left: 9rem;
     text-align: center;
-    font-size: 6rem;
-    margin-top: 4rem;
+    font-size: 4rem;
+    margin-bottom: 25px;
 }
 .darshan-date{
-    font-size: 3rem;
+    font-size: 26px;
     color: #59EDEA;
 }
 .darshanrawal-info{
     color: white;
-    width: 58rem;
-    height: 18rem;
-    margin-left: 24rem;
+    width: 40rem;
+    height: 12rem;
+    margin-left: 15rem;
     font-family: Jost,sans-serif;
-    font-size: 27px;
-    line-height: 3rem;
-    margin-top: 6rem;
+    font-size: 18px;
+    line-height: 35px;
 }
 /* *******************************************************************************Events****************************************************************************** */
 .events{
     background-color: #01051B;
     overflow: hidden;
-    height: 75rem;
+    height: 50rem;
 }
 .onoevents{
-    margin-left: 7rem;
+    margin-left: 10rem;
     margin-top: 2rem;
+    width: 18rem;
 }
 .events-grid{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .events-photo{
-    width: 32rem;
-    height: 40rem;
+    width: 20rem;
+    height: 25rem;
+    margin-left: 9rem;
 }
 .events-photo-cap{
     color: white;
     margin-top: 2rem;
     font-family: Montserrat,sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 7rem;
+    margin-left: 9rem;
 }
 .events-photo-cap-date{
     color: #A5C1D1;
 }
 .events button{
-    margin-left: 62rem;    
+    margin-left: 43rem;    
     background-color: #384049;
     color: white;
-    width: 15rem;
-    height: 4rem;
-    font-size: 21px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 15px;
 }
 /* **************************************************************************Sponsors********************************************************************************* */
 .sponsors{
@@ -166,7 +168,7 @@
     width: 100%;
 }
 .sponsors-logo-div-img{
-    width: 20rem;
+    width: 12rem;
 }
 /* ************************************************************************FAQs*************************************************************************************** */
 .introImage{
