@@ -1,10 +1,19 @@
+/* *********************************************************************Scrollbar************************************************************************************* */
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #59EDEA;
+    border-radius: 20px;
+}
 /* ************************************************************************Main*************************************************************************************** */
 *{
     margin: 0;
     padding: 0;
 }
 #home{
-    height: 47rem;
+    height: 100vh;
     background-image: url(Home/bg-landing-ono.7891c75a.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -148,6 +157,9 @@
     height: 3rem;
     font-size: 15px;
 }
+.events button:hover{
+    cursor: pointer;
+}
 /* **************************************************************************Sponsors********************************************************************************* */
 .sponsors{
     background-color: rgb(4,6,19);
@@ -171,6 +183,29 @@
     width: 12rem;
 }
 /* ************************************************************************FAQs*************************************************************************************** */
+#FAQs{
+    background-color: #040713;
+}
 .introImage{
     width: 100%;
+}
+#FAQs p{
+    font-family: Roboto,sans-serif;
+}
+.faq-info{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+.ques{
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.ans{
+    display: none;
+    margin-bottom: 5px;
+    color: #c3c8c9;
 }
