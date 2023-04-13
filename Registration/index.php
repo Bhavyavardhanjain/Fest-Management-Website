@@ -7,37 +7,38 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/Home/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/Home/favicon/favicon-16x16.png">
         <link rel="manifest" href="/Home/favicon/site.webmanifest">
-        <?php include"main.php"; ?>
+        <script src="main.js"></script>
     </head>
     <body>
-        <form method="post">
+        <form method="post" action="main.php" name="form">
             <h1>Registration</h1>
             <div class="form-div">
                 <label>Name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" id="name" required>
                 <label>Registration No.</label>
-                <input type="number" name="regno">
+                <input type="number" name="regno" id="regno" required>
                 <label>Year</label>
-                <select name="year">
-                    <option value="">1st</option>
-                    <option value="">2nd</option>
-                    <option value="">3rd</option>
-                    <option value="">4th</option>
+                <select name="year" id="year" required>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
                 </select>
                 <label>Course</label>
-                <input type="text" name="course">
+                <input type="text" name="course" id="course" required>
                 <label>Branch</label>
-                <input type="text" name="branch">
+                <input type="text" name="branch" id="branch" required>
                 <label>Outlook Email Id</label>
-                <input type="email" name="email">
+                <input type="email" name="email" id="email" required>
                 <label>Phone No.</label>
-                <input type="tel" name="phoneno">
+                <input type="tel" name="phoneno" id="phoneno" required>
                 <label>Password</label>
-                <input type="password" name="pass">
-                <button type="submit">Submit</button>
+                <input type="password" name="pass" id="password" required>
+                <button type="submit" value="submit" onclick="validateform()">Submit</button>
                 <p>Already have a account?<a href="http://localhost:3000/Login/index.php">Login</a></p>
             </div>
             </div>
         </form>
+        
     </body>
 </html>
