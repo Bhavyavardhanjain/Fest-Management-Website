@@ -13,9 +13,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 35rem;
+    width: 35vw;
     margin: auto;
-    padding-top: 30vh
+    padding-top: 30vh;
 }
 input{
     background-color: transparent;
