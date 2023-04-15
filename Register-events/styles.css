@@ -8,14 +8,15 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     background-color: #06101c;
+    display: flex;
 }
 .form-div{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     width: 40vw;
-    margin: auto;
     justify-content: space-around;
+    margin-left: 34vw;
 }
 h1{
     text-align: center;
@@ -23,4 +24,26 @@ h1{
 input{
     background-color: transparent;
     border: none;
+    /* height: 25px; */
+}
+.par-info{
+    margin-left: 7vw;
+    text-align: right;
+    /* border: 2px solid red; */
+    width: 26vw;
+}
+label{
+    font-size: 1.25rem;
+    margin-top: 25px;
+}
+button{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    height: 30px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+button[name="delete"]{
+    width: 15vw;
 }
