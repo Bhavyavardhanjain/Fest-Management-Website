@@ -8,7 +8,7 @@ function validateform(){
     var password=document.getElementById("password").value;
     var rncb=/^[a-zA-Z\s]+$/;
     var rr=/^[0-9]{9}$/;
-    var re=/^[a-zA-Z0-9.]+@[a-zA-Z.]{15,}$/;
+    var re=/^[a-zA-Z0-9.]+@[a-zA-Z.]{25,}$/;
     var rph=/^[0-9]{10}$/;
     var rpa=/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$/;
     if(!rncb.test(name)){
@@ -47,7 +47,6 @@ function validateform(){
         return false;
     }
     else{
-        confirm("Registered Successfully");
         return true;
     }
 }
