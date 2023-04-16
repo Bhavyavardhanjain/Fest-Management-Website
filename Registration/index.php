@@ -38,7 +38,6 @@
                 <p>Already have a account?<a href="http://localhost:3000/Login/index.php">Login</a></p>
             </div>
             </div>
-        </form>
-        
+</form> 
     </body>
 </html>
