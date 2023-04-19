@@ -37,3 +37,7 @@ button{
     background-color: transparent;
     border: 2px solid black;
 }
+p{
+    margin-top: 10px;
+    font-size: 1.25rem;
+}

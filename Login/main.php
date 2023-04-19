@@ -13,6 +13,7 @@ session_start();
             mysqli_query($connect,$query1);
         }
         else{
-            echo'<script>alert("Not Registered")</script>';
+            echo'<script>alert("Wrong username or password")</script>';
+            echo'<script>location.href="http://localhost:3000/Login/index.php"</script>';
         }
         ?>
