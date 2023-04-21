@@ -14,7 +14,7 @@
             <h1>Registration</h1>
             <div class="form-div">
                 <label>Name</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name"  required>
                 <label>Registration No.</label>
                 <input type="number" name="regno" id="regno" required>
                 <label>Year</label>

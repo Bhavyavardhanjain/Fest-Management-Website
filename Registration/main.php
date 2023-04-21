@@ -1,5 +1,5 @@
 <?php
-        error_reporting(0);
+        // error_reporting(0);
         $connect = mysqli_connect("localhost", "root", "root", "fest_management") or die(" Connection Failed");
         $name = $_POST["name"];
         $regno = $_POST["regno"];
