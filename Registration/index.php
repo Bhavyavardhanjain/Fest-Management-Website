@@ -9,12 +9,13 @@
         <link rel="manifest" href="/Home/favicon/site.webmanifest">
         <script src="main.js"></script>
     </head>
+
     <body>
         <form method="post" action="main.php" name="form">
             <h1>Registration</h1>
             <div class="form-div">
                 <label>Name</label>
-                <input type="text" name="name" id="name"  required>
+                <input type="text" name="name" id="name" required>
                 <label>Registration No.</label>
                 <input type="number" name="regno" id="regno" required>
                 <label>Year</label>
@@ -37,7 +38,6 @@
                 <button type="submit" value="submit" onclick="validateform()">Submit</button>
                 <p>Already have a account?<a href="http://localhost:3000/Login/index.php">Login</a></p>
             </div>
-            </div>
-</form> 
+        </form>
     </body>
 </html>
