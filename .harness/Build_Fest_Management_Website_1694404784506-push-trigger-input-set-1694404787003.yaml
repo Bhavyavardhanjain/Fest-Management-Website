@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Fest_Management_Website_1694404784506-push-trigger-input-set
+  identifier: Build_Fest_Management_Website_1694404784506pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Fest_Mangement
+  pipeline:
+    identifier: Build_Fest_Management_Website_1694404784506
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
